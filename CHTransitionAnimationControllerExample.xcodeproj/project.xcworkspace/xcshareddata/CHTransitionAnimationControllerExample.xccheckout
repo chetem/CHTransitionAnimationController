@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9FD001D8-F707-48AB-88DD-87D97CA8A0FA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CHTransitionAnimationControllerExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>229E7FD7-6A65-4DE5-BD26-4BABCB466DC8</key>
+		<string>https://github.com/chetem/CHTransitionAnimationControllerExample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CHTransitionAnimationControllerExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>229E7FD7-6A65-4DE5-BD26-4BABCB466DC8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chetem/CHTransitionAnimationControllerExample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>229E7FD7-6A65-4DE5-BD26-4BABCB466DC8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>229E7FD7-6A65-4DE5-BD26-4BABCB466DC8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CHTransitionAnimationControllerExample</string>
+		</dict>
+	</array>
+</dict>
+</plist>

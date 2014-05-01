@@ -7,23 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B60A77F1912EBE900B539A9 /* CHTransitionAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B60A77E1912EBE900B539A9 /* CHTransitionAnimationController.m */; };
+		8B60A7861912EBFA00B539A9 /* CHFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B60A7811912EBFA00B539A9 /* CHFirstViewController.m */; };
+		8B60A7871912EBFA00B539A9 /* CHFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B60A7821912EBFA00B539A9 /* CHFirstViewController.xib */; };
+		8B60A7881912EBFA00B539A9 /* CHSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B60A7841912EBFA00B539A9 /* CHSecondViewController.m */; };
+		8B60A7891912EBFA00B539A9 /* CHSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B60A7851912EBFA00B539A9 /* CHSecondViewController.xib */; };
+		8B60A78C1912EC0900B539A9 /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B60A78B1912EC0900B539A9 /* CHAppDelegate.m */; };
+		8B60A7991912EC9E00B539A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B60A7981912EC9E00B539A9 /* InfoPlist.strings */; };
+		8B60A79E1912ED0000B539A9 /* CHTransitionAnimationControllerExample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B60A79A1912ED0000B539A9 /* CHTransitionAnimationControllerExample-Info.plist */; };
+		8B60A79F1912ED0000B539A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B60A79C1912ED0000B539A9 /* Images.xcassets */; };
+		8B60A7A01912ED0000B539A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B60A79D1912ED0000B539A9 /* main.m */; };
 		8BFC9CC01912CC000056A018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFC9CBF1912CC000056A018 /* Foundation.framework */; };
 		8BFC9CC21912CC000056A018 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFC9CC11912CC000056A018 /* CoreGraphics.framework */; };
 		8BFC9CC41912CC000056A018 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFC9CC31912CC000056A018 /* UIKit.framework */; };
-		8BFC9CCA1912CC000056A018 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BFC9CC81912CC000056A018 /* InfoPlist.strings */; };
-		8BFC9CCC1912CC000056A018 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC9CCB1912CC000056A018 /* main.m */; };
-		8BFC9CD01912CC000056A018 /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC9CCF1912CC000056A018 /* CHAppDelegate.m */; };
-		8BFC9CD21912CC000056A018 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFC9CD11912CC000056A018 /* Images.xcassets */; };
 		8BFC9CD91912CC000056A018 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFC9CD81912CC000056A018 /* XCTest.framework */; };
 		8BFC9CDA1912CC000056A018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFC9CBF1912CC000056A018 /* Foundation.framework */; };
 		8BFC9CDB1912CC000056A018 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFC9CC31912CC000056A018 /* UIKit.framework */; };
 		8BFC9CE31912CC000056A018 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BFC9CE11912CC000056A018 /* InfoPlist.strings */; };
 		8BFC9CE51912CC000056A018 /* CHTransitionAnimationControllerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC9CE41912CC000056A018 /* CHTransitionAnimationControllerExampleTests.m */; };
-		8BFC9CF11912CC210056A018 /* CHFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC9CEF1912CC210056A018 /* CHFirstViewController.m */; };
-		8BFC9CF21912CC210056A018 /* CHFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFC9CF01912CC210056A018 /* CHFirstViewController.xib */; };
-		8BFC9CF61912CC2F0056A018 /* CHSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC9CF41912CC2F0056A018 /* CHSecondViewController.m */; };
-		8BFC9CF71912CC2F0056A018 /* CHSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFC9CF51912CC2F0056A018 /* CHSecondViewController.xib */; };
-		8BFC9CFC1912CC630056A018 /* CHTransitionAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC9CFB1912CC630056A018 /* CHTransitionAnimationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,30 +38,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B60A77D1912EBE900B539A9 /* CHTransitionAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHTransitionAnimationController.h; path = Animations/CHTransitionAnimationController.h; sourceTree = "<group>"; };
+		8B60A77E1912EBE900B539A9 /* CHTransitionAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHTransitionAnimationController.m; path = Animations/CHTransitionAnimationController.m; sourceTree = "<group>"; };
+		8B60A7801912EBFA00B539A9 /* CHFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHFirstViewController.h; path = ViewControllers/CHFirstViewController.h; sourceTree = "<group>"; };
+		8B60A7811912EBFA00B539A9 /* CHFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHFirstViewController.m; path = ViewControllers/CHFirstViewController.m; sourceTree = "<group>"; };
+		8B60A7821912EBFA00B539A9 /* CHFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CHFirstViewController.xib; path = ViewControllers/CHFirstViewController.xib; sourceTree = "<group>"; };
+		8B60A7831912EBFA00B539A9 /* CHSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHSecondViewController.h; path = ViewControllers/CHSecondViewController.h; sourceTree = "<group>"; };
+		8B60A7841912EBFA00B539A9 /* CHSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHSecondViewController.m; path = ViewControllers/CHSecondViewController.m; sourceTree = "<group>"; };
+		8B60A7851912EBFA00B539A9 /* CHSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CHSecondViewController.xib; path = ViewControllers/CHSecondViewController.xib; sourceTree = "<group>"; };
+		8B60A78A1912EC0900B539A9 /* CHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHAppDelegate.h; path = Delegate/CHAppDelegate.h; sourceTree = "<group>"; };
+		8B60A78B1912EC0900B539A9 /* CHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHAppDelegate.m; path = Delegate/CHAppDelegate.m; sourceTree = "<group>"; };
+		8B60A7981912EC9E00B539A9 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		8B60A79A1912ED0000B539A9 /* CHTransitionAnimationControllerExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CHTransitionAnimationControllerExample-Info.plist"; sourceTree = "<group>"; };
+		8B60A79B1912ED0000B539A9 /* CHTransitionAnimationControllerExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CHTransitionAnimationControllerExample-Prefix.pch"; sourceTree = "<group>"; };
+		8B60A79C1912ED0000B539A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B60A79D1912ED0000B539A9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BFC9CBC1912CC000056A018 /* CHTransitionAnimationControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHTransitionAnimationControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFC9CBF1912CC000056A018 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8BFC9CC11912CC000056A018 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8BFC9CC31912CC000056A018 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8BFC9CC71912CC000056A018 /* CHTransitionAnimationControllerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CHTransitionAnimationControllerExample-Info.plist"; sourceTree = "<group>"; };
-		8BFC9CC91912CC000056A018 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8BFC9CCB1912CC000056A018 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8BFC9CCD1912CC000056A018 /* CHTransitionAnimationControllerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CHTransitionAnimationControllerExample-Prefix.pch"; sourceTree = "<group>"; };
-		8BFC9CCE1912CC000056A018 /* CHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHAppDelegate.h; sourceTree = "<group>"; };
-		8BFC9CCF1912CC000056A018 /* CHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAppDelegate.m; sourceTree = "<group>"; };
-		8BFC9CD11912CC000056A018 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8BFC9CD71912CC000056A018 /* CHTransitionAnimationControllerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHTransitionAnimationControllerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFC9CD81912CC000056A018 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8BFC9CE01912CC000056A018 /* CHTransitionAnimationControllerExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CHTransitionAnimationControllerExampleTests-Info.plist"; sourceTree = "<group>"; };
 		8BFC9CE21912CC000056A018 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8BFC9CE41912CC000056A018 /* CHTransitionAnimationControllerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHTransitionAnimationControllerExampleTests.m; sourceTree = "<group>"; };
-		8BFC9CEE1912CC210056A018 /* CHFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHFirstViewController.h; sourceTree = "<group>"; };
-		8BFC9CEF1912CC210056A018 /* CHFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHFirstViewController.m; sourceTree = "<group>"; };
-		8BFC9CF01912CC210056A018 /* CHFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHFirstViewController.xib; sourceTree = "<group>"; };
-		8BFC9CF31912CC2F0056A018 /* CHSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSecondViewController.h; sourceTree = "<group>"; };
-		8BFC9CF41912CC2F0056A018 /* CHSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSecondViewController.m; sourceTree = "<group>"; };
-		8BFC9CF51912CC2F0056A018 /* CHSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHSecondViewController.xib; sourceTree = "<group>"; };
-		8BFC9CFA1912CC630056A018 /* CHTransitionAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTransitionAnimationController.h; sourceTree = "<group>"; };
-		8BFC9CFB1912CC630056A018 /* CHTransitionAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTransitionAnimationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,11 +121,14 @@
 		8BFC9CC51912CC000056A018 /* CHTransitionAnimationControllerExample */ = {
 			isa = PBXGroup;
 			children = (
+				8B60A79A1912ED0000B539A9 /* CHTransitionAnimationControllerExample-Info.plist */,
+				8B60A79B1912ED0000B539A9 /* CHTransitionAnimationControllerExample-Prefix.pch */,
+				8B60A79C1912ED0000B539A9 /* Images.xcassets */,
+				8B60A79D1912ED0000B539A9 /* main.m */,
 				8BFC9CF91912CC3F0056A018 /* Transition Animation */,
 				8BFC9CF81912CC320056A018 /* View Controllers */,
-				8BFC9CCE1912CC000056A018 /* CHAppDelegate.h */,
-				8BFC9CCF1912CC000056A018 /* CHAppDelegate.m */,
-				8BFC9CD11912CC000056A018 /* Images.xcassets */,
+				8B60A78A1912EC0900B539A9 /* CHAppDelegate.h */,
+				8B60A78B1912EC0900B539A9 /* CHAppDelegate.m */,
 				8BFC9CC61912CC000056A018 /* Supporting Files */,
 			);
 			path = CHTransitionAnimationControllerExample;
@@ -133,10 +137,7 @@
 		8BFC9CC61912CC000056A018 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8BFC9CC71912CC000056A018 /* CHTransitionAnimationControllerExample-Info.plist */,
-				8BFC9CC81912CC000056A018 /* InfoPlist.strings */,
-				8BFC9CCB1912CC000056A018 /* main.m */,
-				8BFC9CCD1912CC000056A018 /* CHTransitionAnimationControllerExample-Prefix.pch */,
+				8B60A7981912EC9E00B539A9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,12 +163,12 @@
 		8BFC9CF81912CC320056A018 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8BFC9CEE1912CC210056A018 /* CHFirstViewController.h */,
-				8BFC9CEF1912CC210056A018 /* CHFirstViewController.m */,
-				8BFC9CF01912CC210056A018 /* CHFirstViewController.xib */,
-				8BFC9CF31912CC2F0056A018 /* CHSecondViewController.h */,
-				8BFC9CF41912CC2F0056A018 /* CHSecondViewController.m */,
-				8BFC9CF51912CC2F0056A018 /* CHSecondViewController.xib */,
+				8B60A7801912EBFA00B539A9 /* CHFirstViewController.h */,
+				8B60A7811912EBFA00B539A9 /* CHFirstViewController.m */,
+				8B60A7821912EBFA00B539A9 /* CHFirstViewController.xib */,
+				8B60A7831912EBFA00B539A9 /* CHSecondViewController.h */,
+				8B60A7841912EBFA00B539A9 /* CHSecondViewController.m */,
+				8B60A7851912EBFA00B539A9 /* CHSecondViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -175,8 +176,8 @@
 		8BFC9CF91912CC3F0056A018 /* Transition Animation */ = {
 			isa = PBXGroup;
 			children = (
-				8BFC9CFA1912CC630056A018 /* CHTransitionAnimationController.h */,
-				8BFC9CFB1912CC630056A018 /* CHTransitionAnimationController.m */,
+				8B60A77D1912EBE900B539A9 /* CHTransitionAnimationController.h */,
+				8B60A77E1912EBE900B539A9 /* CHTransitionAnimationController.m */,
 			);
 			name = "Transition Animation";
 			sourceTree = "<group>";
@@ -257,10 +258,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BFC9CCA1912CC000056A018 /* InfoPlist.strings in Resources */,
-				8BFC9CF71912CC2F0056A018 /* CHSecondViewController.xib in Resources */,
-				8BFC9CD21912CC000056A018 /* Images.xcassets in Resources */,
-				8BFC9CF21912CC210056A018 /* CHFirstViewController.xib in Resources */,
+				8B60A7991912EC9E00B539A9 /* InfoPlist.strings in Resources */,
+				8B60A79F1912ED0000B539A9 /* Images.xcassets in Resources */,
+				8B60A7891912EBFA00B539A9 /* CHSecondViewController.xib in Resources */,
+				8B60A79E1912ED0000B539A9 /* CHTransitionAnimationControllerExample-Info.plist in Resources */,
+				8B60A7871912EBFA00B539A9 /* CHFirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,11 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BFC9CCC1912CC000056A018 /* main.m in Sources */,
-				8BFC9CF61912CC2F0056A018 /* CHSecondViewController.m in Sources */,
-				8BFC9CFC1912CC630056A018 /* CHTransitionAnimationController.m in Sources */,
-				8BFC9CF11912CC210056A018 /* CHFirstViewController.m in Sources */,
-				8BFC9CD01912CC000056A018 /* CHAppDelegate.m in Sources */,
+				8B60A7A01912ED0000B539A9 /* main.m in Sources */,
+				8B60A77F1912EBE900B539A9 /* CHTransitionAnimationController.m in Sources */,
+				8B60A7881912EBFA00B539A9 /* CHSecondViewController.m in Sources */,
+				8B60A78C1912EC0900B539A9 /* CHAppDelegate.m in Sources */,
+				8B60A7861912EBFA00B539A9 /* CHFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +308,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8BFC9CC81912CC000056A018 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8BFC9CC91912CC000056A018 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		8BFC9CE11912CC000056A018 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -480,6 +474,7 @@
 				8BFC9CEA1912CC000056A018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BFC9CEB1912CC000056A018 /* Build configuration list for PBXNativeTarget "CHTransitionAnimationControllerExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +483,7 @@
 				8BFC9CED1912CC000056A018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
