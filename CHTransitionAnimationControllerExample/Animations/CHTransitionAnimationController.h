@@ -16,6 +16,14 @@ typedef enum {
 	CHTransitionAnimationTypeFade,
 	CHTransitionAnimationTypeShrinkWithRotation,
 	CHTransitionAnimationTypeGrowWithRotation,
+	CHTransitionAnimationTypeSlideInFromLeft,
+	CHTransitionAnimationTypeSlideInFromRight,
+	CHTransitionAnimationTypeSlideInFromTop,
+	CHTransitionAnimationTypeSlideInFromBottom,
+	CHTransitionAnimationTypeSlideOutToLeft,
+	CHTransitionAnimationTypeSlideOutToRight,
+	CHTransitionAnimationTypeSlideOutToTop,
+	CHTransitionAnimationTypeSlideOutToBottom
 } CHTransitionAnimationControllerType;
 
 @property (assign, nonatomic) CGFloat animationDuration;

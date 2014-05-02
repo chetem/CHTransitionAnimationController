@@ -36,6 +36,31 @@
 		case CHTransitionAnimationTypeGrowWithRotation:
 			[self performAnimationTypeGrow:transitionContext withRotation:M_PI];
 			break;
+		case CHTransitionAnimationTypeSlideInFromLeft:
+			[self performAnimationTypeSlideIn:transitionContext withType:CHTransitionAnimationTypeSlideInFromLeft] ;
+			break;
+		case CHTransitionAnimationTypeSlideInFromRight:
+			[self performAnimationTypeSlideIn:transitionContext withType:CHTransitionAnimationTypeSlideInFromRight];
+			break;
+		case CHTransitionAnimationTypeSlideInFromTop:
+			[self performAnimationTypeSlideIn:transitionContext withType:CHTransitionAnimationTypeSlideInFromTop];
+			break;
+		case CHTransitionAnimationTypeSlideInFromBottom:
+			[self performAnimationTypeSlideIn:transitionContext withType:CHTransitionAnimationTypeSlideInFromBottom];
+			break;
+		case CHTransitionAnimationTypeSlideOutToLeft:
+			[self performAnimationTypeSlideOut:transitionContext withType:CHTransitionAnimationTypeSlideOutToLeft] ;
+			break;
+		case CHTransitionAnimationTypeSlideOutToRight:
+			[self performAnimationTypeSlideOut:transitionContext withType:CHTransitionAnimationTypeSlideOutToRight];
+			break;
+		case CHTransitionAnimationTypeSlideOutToTop:
+			[self performAnimationTypeSlideOut:transitionContext withType:CHTransitionAnimationTypeSlideOutToTop];
+			break;
+		case CHTransitionAnimationTypeSlideOutToBottom:
+			[self performAnimationTypeSlideOut:transitionContext withType:CHTransitionAnimationTypeSlideOutToBottom];
+			break;
+
 
 	}
 	
@@ -250,6 +275,112 @@
 						 toViewController.view.frame = finalFrame;	//make sure toViewController frame is set right
 						 toViewController.view.hidden = NO;			//unhide toViewController
 						 [toSnapShotView removeFromSuperview];		//remove toSnapShotView
+						 [transitionContext completeTransition:YES];
+					 }];
+	
+}
+
+-(void)performAnimationTypeSlideIn:(id<UIViewControllerContextTransitioning>)transitionContext withType:(CHTransitionAnimationControllerType)type
+{
+	//get toViewController and fromViewController from transition context
+	UIViewController *toViewController = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
+	
+	//set the finalFrame to use the frame of the 'toViewController'
+	//(i.e. the view that will show after presenting/dismissing)
+	CGRect finalFrame = [transitionContext finalFrameForViewController:toViewController];
+	
+	//get container view from context
+	UIView *containerView = [transitionContext containerView];
+	
+	//add 'toViewController' to container view and send it to back so it is ready to view after dismissal
+	[containerView addSubview:toViewController.view];
+		
+	//set initial frame of toViewController off screen to the left
+	CGRect initialRect = toViewController.view.frame;
+
+	
+	switch (type) {
+		case CHTransitionAnimationTypeSlideInFromLeft:
+			initialRect.origin.x = initialRect.origin.x-initialRect.size.width;
+			break;
+		case CHTransitionAnimationTypeSlideInFromRight:
+			initialRect.origin.x = initialRect.origin.x+initialRect.size.width;
+			break;
+		case CHTransitionAnimationTypeSlideInFromTop:
+			initialRect.origin.y = initialRect.origin.y-initialRect.size.height;
+			break;
+		case CHTransitionAnimationTypeSlideInFromBottom:
+			initialRect.origin.y = initialRect.origin.y+initialRect.size.height;
+			break;
+		default:
+			break;
+			
+	}
+	
+	toViewController.view.frame = initialRect;
+	
+	//animate with key frames
+	[UIView animateWithDuration:DURATION
+						  delay:0.0
+						options:UIViewAnimationOptionCurveLinear
+					 animations:^{
+						 toViewController.view.frame = finalFrame;
+						 
+					 } completion:^(BOOL finished) {
+						 toViewController.view.frame = finalFrame;	//make sure toViewController frame is set right
+						 [transitionContext completeTransition:YES];
+					 }];
+	
+}
+
+-(void)performAnimationTypeSlideOut:(id<UIViewControllerContextTransitioning>)transitionContext withType:(CHTransitionAnimationControllerType)type
+{
+	//get toViewController and fromViewController from transition context
+	UIViewController *toViewController = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
+	UIViewController *fromViewController = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
+	
+	//set the finalFrame to use the frame of the 'toViewController'
+	//(i.e. the view that will show after presenting/dismissing)
+	CGRect finalFrame = [transitionContext finalFrameForViewController:toViewController];
+	
+	//get container view from context
+	UIView *containerView = [transitionContext containerView];
+	
+	//add 'toViewController' to container view and send it to back so it is ready to view after dismissal
+	[containerView addSubview:toViewController.view];
+	[containerView sendSubviewToBack:toViewController.view];
+	
+	//set initial frame of toViewController off screen to the left
+	CGRect finalFromRect = fromViewController.view.frame;
+	
+	
+	switch (type) {
+		case CHTransitionAnimationTypeSlideOutToLeft:
+			finalFromRect.origin.x = finalFromRect.origin.x-finalFromRect.size.width;
+			break;
+		case CHTransitionAnimationTypeSlideOutToRight:
+			finalFromRect.origin.x = finalFromRect.origin.x+finalFromRect.size.width;
+			break;
+		case CHTransitionAnimationTypeSlideOutToTop:
+			finalFromRect.origin.y = finalFromRect.origin.y-finalFromRect.size.height;
+			break;
+		case CHTransitionAnimationTypeSlideOutToBottom:
+			finalFromRect.origin.y = finalFromRect.origin.y+finalFromRect.size.height;
+			break;
+		default:
+			break;
+			
+	}
+	
+	//animate with key frames
+	[UIView animateWithDuration:DURATION
+						  delay:0.0
+						options:UIViewAnimationOptionCurveLinear
+					 animations:^{
+						 fromViewController.view.frame = finalFromRect;
+						 
+					 } completion:^(BOOL finished) {
+						 toViewController.view.frame = finalFrame;	//make sure toViewController frame is set right
 						 [transitionContext completeTransition:YES];
 					 }];
 	

@@ -46,16 +46,16 @@
 {
 	
 	CHTransitionAnimationController *animationController = [CHTransitionAnimationController new];
-	animationController.animationType = CHTransitionAnimationTypeGrowWithRotation;
-	animationController.animationDuration = .5;	//optional setting here - defaults to 0.25
+	animationController.animationType = CHTransitionAnimationTypeSlideInFromLeft;
+//	animationController.animationDuration = .5;	//optional setting here - defaults to 0.25
 	return animationController;
 }
 
 -(id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
 {
 	CHTransitionAnimationController *animationController = [CHTransitionAnimationController new];
-	animationController.animationType = CHTransitionAnimationTypeShrinkWithRotation;
-	animationController.animationDuration = .5;	//optional setting here - defaults to 0.25
+	animationController.animationType = CHTransitionAnimationTypeSlideOutToBottom;
+//	animationController.animationDuration = .5;	//optional setting here - defaults to 0.25
 	return animationController;
 }
 
