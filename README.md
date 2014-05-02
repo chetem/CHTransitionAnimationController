@@ -31,7 +31,7 @@ viewController.transitioningDelegate = self;  //set transitioning delegate
 	return animationController;
 }
 ```
-NOTE: The current animation options include CHTransitionAnimationTypeGrow, CHTransitionAnimationTypeShrink, and CHTransitionAnimationTypeFade. These will work for either presenting or dismissing a view controller. Other transition types will come as I continue to work on this project. If you have any animations you'd like to see, let me know!
+NOTE: The current animation options include CHTransitionAnimationTypeGrow, CHTransitionAnimationTypeShrink, and CHTransitionAnimationTypeFade, CHTransitionAnimationTypeGrowWithRotation, and CHTransitionAnimationTypeShrinkWithRotation. These will work for either presenting or dismissing a view controller. Other transition types will come as I continue to work on this project. If you have any animations you'd like to see, let me know!
 
 ####Optional Steps:
 You can set the `animationDuration` property of the `CHTransitionAnimationController` instance, but you don't have to. It will default to 0.25. The `animationDuration` property is just that, the duration for which the animation will take to complete. 
