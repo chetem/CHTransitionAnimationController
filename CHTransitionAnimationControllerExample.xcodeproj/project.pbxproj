@@ -121,14 +121,14 @@
 		8BFC9CC51912CC000056A018 /* CHTransitionAnimationControllerExample */ = {
 			isa = PBXGroup;
 			children = (
-				8B60A79A1912ED0000B539A9 /* CHTransitionAnimationControllerExample-Info.plist */,
-				8B60A79B1912ED0000B539A9 /* CHTransitionAnimationControllerExample-Prefix.pch */,
-				8B60A79C1912ED0000B539A9 /* Images.xcassets */,
-				8B60A79D1912ED0000B539A9 /* main.m */,
 				8BFC9CF91912CC3F0056A018 /* Transition Animation */,
 				8BFC9CF81912CC320056A018 /* View Controllers */,
 				8B60A78A1912EC0900B539A9 /* CHAppDelegate.h */,
 				8B60A78B1912EC0900B539A9 /* CHAppDelegate.m */,
+				8B60A79A1912ED0000B539A9 /* CHTransitionAnimationControllerExample-Info.plist */,
+				8B60A79B1912ED0000B539A9 /* CHTransitionAnimationControllerExample-Prefix.pch */,
+				8B60A79C1912ED0000B539A9 /* Images.xcassets */,
+				8B60A79D1912ED0000B539A9 /* main.m */,
 				8BFC9CC61912CC000056A018 /* Supporting Files */,
 			);
 			path = CHTransitionAnimationControllerExample;

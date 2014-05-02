@@ -46,7 +46,7 @@
 {
 	
 	CHTransitionAnimationController *animationController = [CHTransitionAnimationController new];
-	animationController.animationType = CHTransitionAnimationTypeFade;
+	animationController.animationType = CHTransitionAnimationTypeGrowWithRotation;
 	animationController.animationDuration = .5;	//optional setting here - defaults to 0.25
 	return animationController;
 }
@@ -54,7 +54,7 @@
 -(id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
 {
 	CHTransitionAnimationController *animationController = [CHTransitionAnimationController new];
-	animationController.animationType = CHTransitionAnimationTypeFade;
+	animationController.animationType = CHTransitionAnimationTypeShrinkWithRotation;
 	animationController.animationDuration = .5;	//optional setting here - defaults to 0.25
 	return animationController;
 }
